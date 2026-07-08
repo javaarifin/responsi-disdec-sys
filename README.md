@@ -11,7 +11,7 @@ Repositori ini disusun sebagai bentuk pemenuhan tugas responsi untuk mata kuliah
 
 #### (CPMK 1: 20%) Dengan menggunakan Docker, jalankan YugabyteDB dan kemudian buat 2 tabel dengan nama bebas dan isi kolom bebas. Isikan masing-masing 5 data. Buktikan bahwa 2 tabel dibuat dan data juga telah diisikan. Anda bisa menggunakan ysqlsh atau YugabyteDB UI. 
 
-### 1. Menjalankan YugabyteDB di Docker
+#### Menjalankan YugabyteDB di Docker
 Untuk menjalankan *node* tunggal YugabyteDB, saya menggunakan perintah Docker berikut:
 
     docker run -d --name yugabyte -p7000:7000 -p9000:9000 -p5433:5433 -p9042:9042 yugabytedb/yugabyte:latest bin/yugabyted start --daemon=false
